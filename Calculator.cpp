@@ -1,6 +1,6 @@
 // Calculator.cpp : Contains 'Calculate' function
 
-#include "Caulculator.h"
+#include "Calculator.h"
 
 double Calculator::Calculate(double x, char oper, double y) {
     switch(oper) {
@@ -10,7 +10,7 @@ double Calculator::Calculate(double x, char oper, double y) {
             return x - y;
         case '*':
             return x * y;
-        case '*':
+        case '/':
             return x / y;
         default:
             return 0.0;
